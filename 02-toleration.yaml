@@ -19,3 +19,4 @@ spec:
   #   effect: "NoExecute"
   nodeSelector:
     project: roboshop
+    
