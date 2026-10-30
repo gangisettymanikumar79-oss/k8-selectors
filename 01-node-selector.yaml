@@ -13,6 +13,7 @@ spec:
   nodeSelector:
     project: roboshop
     
+    
 
 
 
