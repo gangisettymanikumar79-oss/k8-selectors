@@ -12,8 +12,8 @@ spec:
     image: nginx # by default it will get from docker hub
   nodeSelector:
     project: roboshop
-  tolerations:
-  - key: "hardware"
-    operator: "Equal"
-    value: "gpu"
-    effect: "NoExecute"
+  # tolerations:
+  # - key: "hardware"
+  #   operator: "Equal"
+  #   value: "gpu"
+  #   effect: "NoExecute"
