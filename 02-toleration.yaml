@@ -17,7 +17,8 @@ spec:
     operator: "Equal"
     value: "gpu"
     effect: "NoExecute"
-  # nodeSelector:
-  #   project: roboshop
+  nodeSelector:
+    project: roboshop
+
    
 
