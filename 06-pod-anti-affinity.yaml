@@ -27,7 +27,8 @@ spec:
             operator: In
             values:
             - database
-        topologyKey: "kubernetes.io/hostname" # border is AZ
+        topologyKey: "kubernetes.io/hostname" # border is host
   containers:
   - name: nginx
     image: nginx
+    
